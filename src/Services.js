@@ -16,7 +16,7 @@ const Services = () => {
             const { icon, heading, text } = Val;
             return (
               <>
-                <div className="col-md-3 col-sm-6 card bg-transparent border-0 text-center py-4 px-2">
+                <div className="col-lg-3 col-md-6 col-sm-6 card bg-transparent border-0 text-center py-4 px-2">
                   <div className="card-img-top">
                     <i className={`${icon} fs-1 icon`}></i>
                   </div>

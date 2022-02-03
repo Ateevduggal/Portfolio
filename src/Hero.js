@@ -1,7 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Ateev1 from "./Ateev-1.jpg";
-import Ateev from "./Ateev.jpg"
 const Hero = () => {
   return (
     <>
@@ -28,7 +27,6 @@ const Hero = () => {
             </div>
             <div className="col-4" id="image_hero">
               <img src={Ateev1} alt="Ateev" className="image_hero" />
-              <img src={Ateev} alt="Ateev" className="w-50 image-hero"/>
             </div>
           </div>
         </div>
