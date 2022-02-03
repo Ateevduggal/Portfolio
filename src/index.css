@@ -1,13 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
+  background-color: #000000;
+  color: white;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#main_hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.text-1 {
+  font-size: 75px;
+  line-height: 62px;
+  padding: 1% 0 !important;
+  padding-left: -3% !important;
+}
+.image-hero {
+  display: none;
+}
+.image_hero {
+  width: 77%;
+  border-radius: 60%;
+}
+/*                  ABOUT                 */
+
+.slider {
+  width: 80%;
+  height: 15px;
+  border-radius: 34px;
+  background-color: grey;
+}
+.inner-slider {
+  background-color: orange;
+  height: 15px;
+  border-radius: 34px;
+}
+.btn {
+  background-color: rgb(196, 136, 26);
+  border-radius: 40px;
+  transition: all 0.3s linear;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid orange;
+}
+/*                        PROJECTS                */
+#card-img {
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+#card-img:hover {
+  opacity: 1;
+}
+#icons {
+  font-size: 45px;
+}
+.instagram {
+  color: magenta;
+}
+.facebook {
+  color: blue;
+}
+.mail {
+  color: grey;
+}
+.linkedin {
+  color: rgb(40, 133, 170);
+}
+.whatsapp {
+  color: green;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 300px) and (max-width: 575px) {
+  #main_hero {
+    display: block !important;
+    margin: auto !important;
+    padding-top: 5% !important;
+  }
+  .main_hero {
+    padding: 0 !important;
+    text-align: center !important;
+    width: 100%;
+    margin: 0 !important;
+    margin-top: 8% !important;
+  }
+  .text-1 {
+    font-size: 45px !important;
+  }
+  .image_hero {
+    display: none;
+  }
+  .image-hero {
+    display: block;
+    margin: auto !important;
+    margin-top: 15% !important;
+  }
+  #heading {
+    font-size: 45px !important;
+    margin-bottom: 8% !important;
+  }
+  hr {
+    width: 37% !important;
+    height: 13% !important;
+  }
+  #image_hero {
+    width: 100%;
+    margin-top: 5% !important;
+  }
+  #text_about {
+    width: 100%;
+    padding-top: 2% !important;
+  }
+  #stats_about {
+    width: 100%;
+    margin: 2% 7% !important;
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .icon {
+    font-size: 70px !important;
+  }
+  .card-title {
+    font-size: 26px !important;
+  }
+  .card-text {
+    font-size: 20px !important;
+  }
+  #btn {
+    width: 40%;
+    font-size: 18px !important;
+  }
+  .btn {
+    margin: 0 5% !important;
+    font-size: 18px !important;
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .image_hero {
+    display: block;
+    width: 40% !important;
+  }
+  .main_hero {
+    margin: 0!important;
+    padding: 0 3% !important;
+  }
+  .image-hero {
+    display: none;
+  }
+  .text-1{
+    font-size: 45px !important;
+  }
+  #heading {
+    font-size: 45px !important;
+    margin-bottom: 8% !important;
+  }
+  hr {
+    width: 37% !important;
+    height: 13% !important;
+  }
+  #image_hero {
+    width: 100%;
+    margin-top: 5% !important;
+  }
+  #text_about {
+    width: 100%;
+    padding-top: 2% !important;
+  }
+  #stats_about {
+    width: 100%;
+    margin: 2% 7% !important;
+    width: 90%;
+  }
+  .icon {
+    font-size: 70px !important;
+  }
+  #btn {
+    width: 40%;
+    font-size: 18px !important;
+  }
+  .btn {
+    margin: 0 5% !important;
+    font-size: 18px !important;
+    width: 100%;
+  }
 }
